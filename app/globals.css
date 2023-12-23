@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -73,4 +76,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+h1 {
+  font-family: 'Zen Dots', sans-serif;
 }
