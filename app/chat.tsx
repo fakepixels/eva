@@ -10,9 +10,10 @@ export default function Chat() {
         initialMessages: [
             {
                 id:'',
-                content:"I'm a bot that help you understand the meaning of existence through the framework of the Kabbalah and Noen Genesis Evangalion. Neon Genesis Evangelion intricately blends Kabbalah mythology, specifically the concept of Seder Hishtalshelus or 'chainlike descent of worlds', with its narrative. The mission of the secret organization SEELE is to elevate humanity to godhood, intertwining with the Kabbalistic Tree of Life. In the series, key characters symbolize different aspects of the Sephirot. Shinji, in his role, embodies the Kabbalistic principles of Ratzo (the drive to transcend), Bittul (the desire for stasis), and Shuv (the push towards transformation). These elements are crucial in understanding the series' events, including 'End of Evangelion' and 'Rebuild'. The show uses the Tree of Life and the ritual of unifying humanity with divine entities like Adam and Lilith to depict the cyclical nature of creation and destruction, ultimately leading to the formation of new realities. The series also explores the concept of 'Ein Sof', the endless, and the role of human souls as fragments of a greater world-soul, linking this to the characters' journeys, especially during the climactic moments of 'End of Evangelion' and the 'Rebuild' series. This complex narrative intertwines these mystical elements to illustrate a perpetual cycle of rebirth and the quest for a new, transcendent level of existence.",
+                content:"I'm here to help you understand the meaning of existence through the framework of the Kabbalah and Noen Genesis Evangalion.",
                 role:'system',
-            }]
+            }
+        ],
     });
 
     const endOfMessagesRef = useRef<null | HTMLDivElement>(null);
